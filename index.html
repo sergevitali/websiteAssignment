@@ -1,0 +1,312 @@
+<!--https://tympanus.net/codrops/2013/04/25/simple-youtube-menu-effect/
+https://colorlib.com/wp/free-website-menu-templates/
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<!-- document's character set -->
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="website project">
+	<meta name="keywords" content="HTML, HTML 2 Column, Sample Template">
+	<meta name="author" content="Serap Bakan">
+
+	<title>Personal Website</title>
+	<link rel="stylesheet" href="Css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani|Montserrat:300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<nav class="topnav" id="myTopnav">
+				<a id="first" href="#" class="active navbarClicked" onclick="navbarLinks('about'); navbarActive('first')" style="">About</a>
+				<a  id="second" class="navbarClicked" href="#" onclick="navbarLinks('favourites'); navbarActive('second')">Favourites</a>
+				<a  id="third" class="navbarClicked" href="#" onclick="navbarLinks('knowledge'); navbarActive('third')">Knowledge</a>
+				<a  id="forth" class="navbarClicked" onclick="navbarLinks('attribution'); navbarActive('forth')" href="#">Attribution & Validation</a>
+				<a  id="fifth" class="navbarClicked" onclick="navbarLinks('contact'); navbarActive('fifth')" href="#">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
+		</nav>
+		<header>
+			<div id="header-div-content" class="header-div">
+				<h1 class="header-h1">Hello, my name is Serap</h1>
+				<p>Welcome to my assignment!</p>
+			</div>
+		</header>
+		<section id="about" class="showContent links" >
+			<div style="background-color:#e8e8e8;">
+				<div class="container" >
+					<h2 class="content-h1">A few things about me</h2>
+					<p class="content-p">Almost 9 years ago, I graduated from Bosphorus University with a Bachelor of Art degree in business administration. Then I gained work experience in bank audit and ICT fields. Now, I’m a certificate IV in web design and development student in Swinburne University.
+						I believe in lifelong learning and enjoy web development courses as well as working on my personal website initiative for more than 8 months. I like filling in the blanks with lorem ipsum, since it’s simply dummy text. </p>
+				</div>
+			</div>
+				<div class="container photo-container" style="margin-top:10px; margin-bottom:10px;">
+					<img src="Images/photo_1.jpg" alt="Portrait">
+					<img src="Images/photo_2.png" alt="Diving">
+					<img src="Images/photo_3.png" alt="Summer">
+				</div>
+				<div style="background-color:#e8e8e8;">
+					<div class="container">
+						<h2 class="content-h1">Course details</h2>
+						<h2>Course Code: <span class="span-list">ICT40115</span></h2>
+						<h2>Course Title: <span class="span-list">Certificate IV in Information Technologies (Digital Media Technologies Stream)</span></h2>
+						<h2>Competencies </h2>
+						<div style="padding-left:50px;">
+							<p class="span-list">◼️ <strong>ICTWEB429:</strong> Create a markup language document to specification</p>
+							<p class="span-list">◼️ <strong>ICTWEB506:</strong> Develop complex cascading style sheets</p>
+						</div>
+						<h2>Disclaimer Notice </h2>
+						<p class="span-list">This website has been created by a student studying the Certificate IV in IT (Digital Media Technology) at Swinburne University.   It has been created for assessment purposes only and will not be commercially published. 	Any copyright material used in this website is used without prejudice or to invoke harm, and is used simply to aid the student in providing content for assessment purposes only.</p>
+						<p class="top-button"><a class="" href="#about"><img src="Images/top.png" alt="" style="width:40px;"></a></p>
+					</div>
+
+				</div>
+		</section>
+		<section id="favourites" class="hidden links" >
+			<div style="background-color:#e8e8e8;">
+				<div class="container photo-container" style="padding-bottom:67px;">
+					<h2 class="content-h1">My favorite things</h2>
+					<div class="fav-div">
+						<h2 class="fav-h2">TV Shows</h2>
+						<ol>
+							<li>The Office</li>
+							<li>Fargo</li>
+							<li>Six Feet Under</li>
+							<li>House</li>
+							<li>The Wire</li>
+						</ol>
+					</div>
+					<div class="fav-div">
+						<h2 class="fav-h2">Foods</h2>
+							<ul>
+								<li>Olive & everything produced by olive</li>
+								<li>Various types of stews and soups</li>
+								<li>Sunny side-up eggs</li>
+								<li>Various types of pasta & noodles & ramen</li>
+								<li>All Turkish dishes</li>
+							</ul>
+					</div>
+					<div class="fav-div">
+						<h2 class="fav-h2">Websites</h2>
+							<ul>
+								<li><a href="https://colorhunt.co/">Color Hunt</a></li>
+								<li><a href="https://unsplash.com/">Unsplash</a></li>
+								<li><a href="https://www.awwwards.com/">Awwwards</a></li>
+								<li><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+								<li><a href="https://eksisozluk.com/">Eksi Sozluk</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container ">
+				<h2 class="content-h1">Movie stars, directors & musicians </h2>
+				<div class="photo-container-2" style="margin-bottom:17px;">
+					<img src="Images/coens.jpg" alt="Coens" title="Coen Brothers">
+					<img src="Images/merylJack.jpg" alt="Meryl & Jack" title="Meryl Streep & Jack Nicholson">
+					<img src="Images/rem.jpg" alt="REM" title="REM">
+					<img src="Images/bjork.jpg" alt="Bjork" title="Bjork">
+					<img src="Images/cure.jpg" alt="The Cure" title="The Cure">
+				</div>
+			</div>
+			<div style="background-color:#e8e8e8;">
+			<div class="container" style="">
+				<h2 class="content-h1">Hobbies & Pet</h2>
+				<div class="photo-container-3" >
+					<div>
+						<img src="Images/snorkel.png" alt="Snorkeling">
+						<p>Snorkeling</p>
+					</div>
+					<div>
+						<img src="Images/diving.png" alt="Scuba Diving">
+						<p>Scuba Diving</p>
+					</div>
+					<div>
+						<img src="Images/walker.png" alt="Trekking">
+						<p>Trekking</p>
+					</div>
+					<div>
+						<img src="Images/swimming.png" alt="Swimming">
+						<p>Swimming</p>
+					</div>
+					<div>
+						<img src="Images/shiba.png" alt="Shiba">
+						<p>Shiba Inu</p>
+					</div>
+				</div>
+				<p class="top-button"><a class="" href="#favourites"><img src="Images/top.png" alt="" style="width:40px; margin-top:20px"></a></p>
+				</div>
+			</div>
+		</section>
+		<section id="knowledge" class="hidden links">
+			<div style="background-color:#e8e8e8;">
+				<div class="container">
+					<h2>Principles of Web Design</h2>
+					<p class="span-list">◼️ Principles are being compatible, creative, functional, understandable and not being distractive and over-designed.</p>
+					<h2>Mark-up Language & Standards</h2>
+					<p class="span-list">◼️ Mark-up language is used to annotate text and embed tags in electronic documents. Standardisation of mark-up language ensures all web browsers to render mark-up language and display the same content.</p>
+					<h2>CSS & Standards</h2>
+					<p class="span-list">◼️ CSS is used to style the layout of a document written in a mark-up language. Standardisation of CSS ensures web pages to function and look the same in all web browsers.</p>
+					<h2>Accessibility</h2>
+					<p class="span-list">◼️ Web accessibility means that websites are being accessed, navigated and perceived by all people, regardless of disability type. It is important to provide equal access and opportunity to people with disabilities.</p>
+				</div>
+				</div>
+				<div class="container">
+					<table class="table">
+						<tr>
+						<th>Browsers</th><th>Latest version</th><th>Software licence</th><th>HTML5Test.com latest scores</th><th>Privacy mode support</th><th>gs.statcounter.com worldwide share</th><th>gs.statcounter.com australia share</th>
+						</tr>
+						<tr>
+							<td>Chrome</td><td>76</td><td>Freeware under Google Chrome Terms of Service</td><td>528</td><td>Yes</td><td>62.8%</td><td>50.72%</td>
+						</tr>
+						<tr>
+							<td>Internet Explorer</td><td>11</td><td>Proprietary, requires a Windows license[3]</td><td>312</td><td>Yes</td><td>2.47%</td><td>2.94%</td>
+						</tr>
+						<tr>
+							<td>Microsoft Edge </td><td>44</td><td>Proprietary software;[7] a component of Windows 10</td><td>496</td><td>Yes</td><td>2.16%</td><td>3.08%</td>
+						</tr>
+						<tr>
+							<td>Mozilla Firefox</td><td>67</td><td>Mozilla Public License</td><td>497</td><td>Yes</td><td>4.86%</td><td>4.08%</td>
+						</tr>
+						<tr>
+							<td>Safari</td><td>12</td><td>Freeware; some components GNU LGPL</td><td>477</td><td>Yes</td><td>15.83%</td><td>33.16%</td>
+					</table>
+					<p class="top-button"><a class="" href="#knowledge"><img src="Images/top.png" alt="" style="width:40px;"></a></p>
+				</div>
+		</section>
+		<section id="attribution" class="hidden links">
+			<div style="background-color:#e8e8e8;">
+				<div class="container">
+					<h2>Image sources</h2>
+					<p class="span-list">📎 <a href="http://www.underground-england.co.uk/news/review-the-cure-at-bst/">The Cure</a></p>
+					<p class="span-list">📎 <a href="https://www.express.co.uk/celebrity-news/440016/Jack-Nicholson-romped-in-trailer-with-star-Meryl-Streep">Meryl Streep & Jack Nicholson</a></p>
+					<p class="span-list">📎 <a href="https://www.morrisonhotelgallery.com/photographs/TYHuo4/Bjork">Bjork</a></p>
+					<p class="span-list">📎 <a href="https://variety.com/2017/tv/news/coen-brothers-tv-series-netflix-1202520874/">Coen Brothers</a></p>
+					<p class="span-list">📎 <a href="https://www.wsj.com/articles/behind-r-e-m-s-hit-losing-my-religion-1460479898">REM</a></p>
+					<p class="span-list">📎 For all other png files: <a href="https://www.flaticon.com/">Flaticon</a></p>
+					<p class="span-list">📎 All images in header: <a href="https://unsplash.com/">Unsplash</a></p>
+				</div>
+				</div>
+				<div class="container">
+					<h2>HTML & CSS validation</h2>
+					<div class=" photo-container-4">
+						<img src="Images/html.png" alt="html">
+						<img src="Images/css.png" alt="css">
+					</div>
+					<p class="top-button"><a class="" href="#attribution"><img src="Images/top.png" alt="" style="width:40px;margin-top:20px"></a></p>
+				</div>
+		</section>
+
+		<section id="contact" class="hidden links">
+			<div style="background-color:#e8e8e8;">
+				<div class="container" style="padding-top:77px; padding-bottom:77px">
+					<div class="before"></div>
+					<div class="personal-inf-div" style="background-color:#cfd6d4; ">
+						<img src="Images/photo_round.jpg" alt="">
+						<div style="background-color:#78B0A0; text-align:center; padding:14px 0;">
+							<h2 style="margin-top:0">Name: <span class="span-list">Serap Yildirim Bakan</span></h2>
+							<h2>Student Id: <span class="span-list">102482833</span></h2>
+							<h2>📧 <span class="span-list">102482833@student.swin.edu.au</span></h2>
+						</div>
+					</div>
+					<div class="contact-form-div">
+						<h2>Contact Form</h2>
+						<form>
+							<div>
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" name="firstname" placeholder="">
+							</div>
+							<div>
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" name="lastname" placeholder="">
+							</div>
+							<div>
+								<label for="mail">E-mail</label>
+								<input type="text" id="mail" name="email" placeholder="">
+							</div>
+							<div>
+								<label for="subject">Comment</label>
+								<textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+							</div>
+							<input type="submit" onClick="myAlert()">
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container" style=" padding-bottom:30px; ">
+				<div class="footer-container">
+						<a href="#" onclick="navbarLinks('about'); navbarActive('first')">About</a>
+						<a href="#" onclick="navbarLinks('favourites'); navbarActive('second')">Favourites</a>
+						<a href="#" onclick="navbarLinks('knowledge'); navbarActive('third')">Knowledge</a>
+						<a href="#" onclick="navbarLinks('attribution'); navbarActive('forth')">Attribution&Validation</a>
+						<a href="#" onclick="navbarLinks('contact'); navbarActive('fifth')">Contact</a>
+				</div>
+				<p class="last-p">© 2019 Serap Yildirim Bakan <strong>|</strong> Last Updated: 24/05/2019</p>
+			</div>
+		</footer>
+
+	</div>
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+
+	function navbarLinks(id) {
+	 var d = document.getElementsByClassName("links");
+	 for(i=0; i<d.length; i++){
+		 d[i].classList.add("hidden");
+		 d[i].classList.remove("showContent");
+	 }
+	 var e = document.getElementById(id);
+	 var b=document.getElementById('header-div-content');
+	 e.classList.add("showContent");
+	 if(id==='favourites'){
+		 b.innerHTML="<h1 class='header-h1'>Get to know me</h1><p>Here are the lists!</p>";
+	 }else if(id==='about'){
+		 b.innerHTML="<h1 class='header-h1'>Hello, my name is Serap</h1><p>Welcome to my assignment!</p>";
+	 }else if(id==='knowledge'){
+		b.innerHTML="<h1 class='header-h1'>Knowledge section</h1><p>In my own words!</p>";
+	 }else if(id==='attribution'){
+		b.innerHTML="<h1 class='header-h1'>Reference & validation</h1><p>Thank you free stock photos!</p>";
+	 }else if(id==='contact'){
+		b.innerHTML="<h1 class='header-h1'>Contact me if you can</h1><p>But I'm just a window alert!</p>";
+	 }
+	}
+
+function navbarActive(id) {
+	var f = document.getElementsByClassName("navbarClicked");
+	for(i=0; i<f.length; i++){
+		f[i].classList.remove("active");
+		}
+	var g=document.getElementById(id);
+	g.classList.add("active");
+};
+		function myAlert() {
+
+		var x1=document.getElementById("fname").value;
+		var x2=document.getElementById("lname").value;
+		var x3=document.getElementById("mail").value;
+		var x4=document.getElementById("subject").value;
+
+		alert("Name: "+x1 + " Surname: " +x2 + " Email: " +x3 + " Subject: " +x4);
+		}
+
+
+	</script>
+</body>
+
+</html>
