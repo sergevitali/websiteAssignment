@@ -256,55 +256,53 @@ https://colorlib.com/wp/free-website-menu-templates/
 
 	</div>
 	<script>
-	function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-	    x.className += " responsive";
+	function myFunction () {
+	  var x = document.getElementById('myTopnav')
+	  if (x.className === 'topnav') {
+	    x.className += ' responsive'
 	  } else {
-	    x.className = "topnav";
+	    x.className = 'topnav'
 	  }
 	}
 
-	function navbarLinks(id) {
-	 var d = document.getElementsByClassName("links");
-	 for(i=0; i<d.length; i++){
-		 d[i].classList.add("hidden");
-		 d[i].classList.remove("showContent");
+	function navbarLinks (id) {
+	 var d = document.getElementsByClassName('links')
+	 for (i = 0; i < d.length; i++) {
+		 d[i].classList.add('hidden')
+		 d[i].classList.remove('showContent')
 	 }
-	 var e = document.getElementById(id);
-	 var b=document.getElementById('header-div-content');
-	 e.classList.add("showContent");
-	 if(id==='favourites'){
-		 b.innerHTML="<h1 class='header-h1'>Get to know me</h1><p>Here are the lists!</p>";
-	 }else if(id==='about'){
-		 b.innerHTML="<h1 class='header-h1'>Hello, my name is Serap</h1><p>Welcome to my assignment!</p>";
-	 }else if(id==='knowledge'){
-		b.innerHTML="<h1 class='header-h1'>Knowledge section</h1><p>In my own words!</p>";
-	 }else if(id==='attribution'){
-		b.innerHTML="<h1 class='header-h1'>Reference & validation</h1><p>Thank you free stock photos!</p>";
-	 }else if(id==='contact'){
-		b.innerHTML="<h1 class='header-h1'>Contact me if you can</h1><p>But I'm just a window alert!</p>";
-	 }
+	 var e = document.getElementById(id)
+	 var b = document.getElementById('header-div-content')
+	 e.classList.add('showContent')
+	 if (id === 'favourites') {
+		 b.innerHTML = "<h1 class='header-h1'>Get to know me</h1><p>Here are the lists!</p>"
+	 } else if (id === 'about') {
+		 b.innerHTML = "<h1 class='header-h1'>Hello, my name is Serap</h1><p>Welcome to my assignment!</p>"
+	 } else if (id === 'knowledge') {
+	    b.innerHTML = "<h1 class='header-h1'>Knowledge section</h1><p>In my own words!</p>"
+		 } else if (id === 'attribution') {
+	    b.innerHTML = "<h1 class='header-h1'>Reference & validation</h1><p>Thank you free stock photos!</p>"
+		 } else if (id === 'contact') {
+	    b.innerHTML = "<h1 class='header-h1'>Contact me if you can</h1><p>But I'm just a window alert!</p>"
+		 }
 	}
 
-function navbarActive(id) {
-	var f = document.getElementsByClassName("navbarClicked");
-	for(i=0; i<f.length; i++){
-		f[i].classList.remove("active");
-		}
-	var g=document.getElementById(id);
-	g.classList.add("active");
-};
-		function myAlert() {
+	function navbarActive (id) {
+	  var f = document.getElementsByClassName('navbarClicked')
+	  for (i = 0; i < f.length; i++) {
+	    f[i].classList.remove('active')
+	  }
+	  var g = document.getElementById(id)
+	  g.classList.add('active')
+	};
+	function myAlert () {
+	  var x1 = document.getElementById('fname').value
+	  var x2 = document.getElementById('lname').value
+	  var x3 = document.getElementById('mail').value
+	  var x4 = document.getElementById('subject').value
 
-		var x1=document.getElementById("fname").value;
-		var x2=document.getElementById("lname").value;
-		var x3=document.getElementById("mail").value;
-		var x4=document.getElementById("subject").value;
-
-		alert("Name: "+x1 + " Surname: " +x2 + " Email: " +x3 + " Subject: " +x4);
-		}
-
+	  alert('Name: ' + x1 + ' Surname: ' + x2 + ' Email: ' + x3 + ' Subject: ' + x4)
+	}
 
 	</script>
 </body>
